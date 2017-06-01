@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    tools:context="com.example.android.fragments.fragments.FragmentTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/hi_from_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="SAY HI!"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:background="#800080"/>
+    <Button
+        android:id="@+id/bye_from_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="SAY BYE!"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:background="#800080"
+        />
+    <TextView
+        android:id="@+id/result_tv_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
